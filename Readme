@@ -1,0 +1,46 @@
+
+---
+
+# BlockBallot
+
+BlockBallot is a decentralized voting platform built on the Ethereum blockchain to offer a secure, transparent, and tamper-proof voting system. It enables admins to set up elections, verify voters, and manage voting processes using smart contracts. BlockBallot is ideal for organizational and community elections that require a high level of trust and transparency.
+
+## Features
+- **Decentralized Voting Platform**: Immutable vote storage using Ethereum blockchain.
+- **Smart Contracts**: Automates voter registration, verification, vote casting, and results display.
+- **Secure & Transparent**: Blockchain’s immutable ledger prevents vote tampering.
+
+## System Workflow
+1. **Admin Setup**: Admin deploys and configures the election on the blockchain.
+2. **Voter Registration**: Voters register using MetaMask; admins verify voter details.
+3. **Vote Casting**: Verified voters cast their votes, recorded securely by the smart contract.
+4. **Election End**: Admin ends the election and results are displayed instantly.
+
+## Tech Stack
+- **Ethereum** for blockchain
+- **Node.js** as backend
+- **Truffle** for smart contract management
+- **Ganache** for local blockchain testing
+- **MetaMask** for user interaction
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/BlockBallot.git
+   cd BlockBallot
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start Ganache and deploy contracts:
+   ```bash
+   ganache-cli
+   truffle migrate --reset
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+---
+
